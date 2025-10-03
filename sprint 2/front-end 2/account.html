@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>حسابي</title>
+  <style>
+    body {margin:0;font-family:Tahoma,Arial,sans-serif;background:#f9f9f9;}
+    .header{background:#357ABD;color:#fff;padding:20px;text-align:center;font-size:22px;font-weight:bold;border-radius:0 0 10px 10px;}
+    .profile{text-align:center;margin:30px 0;}
+    .avatar{width:90px;height:90px;border-radius:50%;background:#e3edf7;display:flex;align-items:center;justify-content:center;font-size:45px;color:#357ABD;margin:0 auto 15px;}
+    .profile h3{margin:5px 0;color:#333;}
+    .profile p{margin:0;color:#777;font-size:14px;}
+    .main{display:flex;justify-content:space-around;flex-wrap:wrap;margin:20px;}
+    .card{background:#fff;border-radius:10px;padding:15px;width:250px;box-shadow:0 4px 8px rgba(0,0,0,0.1);margin-bottom:20px;}
+    .card h4{margin-bottom:10px;font-size:16px;color:#333;}
+    .card ul{list-style:none;padding:0;margin:0;}
+    .card li{padding:8px 0;border-bottom:1px solid #eee;display:flex;justify-content:space-between;align-items:center;font-size:14px;color:#444;}
+    .card li:last-child{border-bottom:none;}
+    .card li a{text-decoration:none;color:#444;flex:1;}
+    .logout{text-align:center;margin:20px;}
+    .logout a{color:red;font-weight:bold;text-decoration:none;font-size:16px;}
+    .logout a:hover{text-decoration:underline;}
+  </style>
+</head>
+<body>
+  <div class="header">حسابي</div>
+
+  <div class="profile">
+    <div class="avatar">👤</div>
+    <h3>محمد علي</h3>
+    <p>@moh_ali23</p>
+  </div>
+
+  <div class="main">
+    <!-- إعدادات -->
+    <div class="card">
+      <h4>الإعدادات</h4>
+      <ul>
+        <li>لغة التطبيق <span>🌐</span></li>
+        <li>تنبيهات البريد/الهاتف <span>📩</span></li>
+        <li>الخصوصية <span>👤</span></li>
+      </ul>
+    </div>
+
+    <!-- حسابي -->
+    <div class="card">
+      <h4>حسابي</h4>
+      <ul>
+        <li><a href="profile.html">إعدادات الملف الشخصي</a> <span>🔒</span></li>
+        <li><a href="password.html">تغيير كلمة السر</a> <span>🔑</span></li>
+      </ul>
+    </div>
+
+    <!-- الموقع -->
+    <div class="card">
+      <h4>الموقع</h4>
+      <ul>
+        <li>المدينة <span>📍</span></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="logout">
+    <a href="#">⇦ تسجيل الخروج</a>
+  </div>
+</body>
+</html>
